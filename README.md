@@ -4,7 +4,7 @@ En este repositorio es donde iré poniendo todo el código que se vaya creando e
 para que lo puedan clonar y tener ejemplos prácticos. 
 
 
-# Herramientas que necesitas en tu maquina
+# Herramientas que necesitas en tu máquina
 Git en este link: https://git-scm.com/
 
 GitHub Desktop: https://desktop.github.com/
