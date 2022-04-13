@@ -11,3 +11,6 @@
 
 ## Correr archivos con extension .js
 ```node .\archivo.js```
+
+## Como instalar dependencia promp
+```npm install promp```
