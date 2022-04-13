@@ -4,7 +4,10 @@
 ```clear```
 
 ## Cambiar carpeta
-```cd .\carpeta```
+```cd .\clase_3_20220412```
+
+## Crear proyecto de nodojs
+```npm init```
 
 ## Correr archivos con extension .js
-```node .\index.js```
+```node .\archivo.js```
