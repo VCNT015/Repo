@@ -46,7 +46,6 @@ button:hover {
 input[type="text"],
 textarea {
     color: red;
-    font-weight: bold;
     font-family: 'Roboto';
     
 }
