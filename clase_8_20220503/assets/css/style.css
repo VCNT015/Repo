@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #001C55;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+h1,
+h3 {
+    text-transform: uppercase;
+}
+
+.contenedor {
+    display: flex;
+
+    /* Dimension formato papel A4 */
+    width: 595px;
+    min-height: 842px;
+
+    margin: 0 auto;
+    background-color: #E9F1F7;
+}
+
+.section1 {
+    width: 35%;
+}
+
+.section2 {
+    width: 65%;
+    background-color: #FEC85D;
+}
+
+.section1,
+.section2 {
+    padding: 25px;
+}
+
+.avatar {
+    width: 150px;
+    height: auto;
+
+    /* Redondear esquinas */
+    border-radius: 50%;
+}
+
+.listado-contacto {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.parrafo-profesion {
+    font-size: 18px;
+    text-align: center;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.icono-lista {
+    margin-right: 10px;
+}
