@@ -13,6 +13,11 @@ app.get('/clientes', function(req, res) {
 })
 
 
+app.get('/editar-clientes', function(req, res) {
+    res.sendFile(__dirname + "/views/editar-costumer.html")
+})
+
 app.listen(3000)
 console.log("Express esta corriendo en el puerto: 3000");
-console.log("http://localhost:3100")
+console.log("http://localhost:3000")
+
