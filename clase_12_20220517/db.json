@@ -610,5 +610,58 @@
       "address": "otra direccion",
       "id": 103
     }
+  ],
+  "interactions": [
+    {
+      "id": 1,
+      "nota": "Llamada de cobro",
+      "createdAt": "2022-05-26",
+      "user": {
+        "id": 1,
+        "username": "jcapellan",
+        "email": "jcapellan@springer.com",
+        "password": ""
+      },
+      "costumer": {
+        "name": "jose lopez",
+        "email": "jlopez@gmail.com",
+        "address": "otra direccion",
+        "id": 103
+      }
+    },
+    {
+      "id": 1,
+      "nota": "Llamada de cobro 2",
+      "createdAt": "2022-05-26",
+      "user": {
+        "id": 1,
+        "username": "jcapellan",
+        "email": "jcapellan@springer.com",
+        "password": ""
+      },
+      "costumer": {
+        "name": "jose lopez",
+        "email": "jlopez@gmail.com",
+        "address": "otra direccion",
+        "id": 103
+      }
+    },
+    {
+      "id": 1,
+      "nota": "Llamada de cobro 3",
+      "createdAt": "2022-05-26",
+      "user": {
+        "id": 1,
+        "username": "jcapellan",
+        "email": "jcapellan@springer.com",
+        "password": ""
+      },
+      "costumer": {
+        "name": "jose lopez",
+        "email": "jlopez@gmail.com",
+        "address": "otra direccion",
+        "id": 103
+      }
+    }
   ]
 }

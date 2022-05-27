@@ -38,3 +38,24 @@ function salvarCliente(event) {
 
 // 3. Agregar evento al formulario
 clienteForm.addEventListener("submit", salvarCliente)
+
+// callAPI("http://localhost:3100/interactions")
+// .then( interactions => console.log(interactions))
+
+
+// guardar datos en el navegador
+
+// 1. proceso de login
+callAPI("http://localhost:3100/interactions/1")
+.then( interactions => {
+
+    // guardar
+    localStorage.setItem("user", JSON.stringify(interactions.user))
+
+    // obtener
+    const user = JSON.parse(localStorage.getItem("user"))
+    console.log(user.id)
+
+    // borrar localStorage
+    localStorage.clear("");
+})
